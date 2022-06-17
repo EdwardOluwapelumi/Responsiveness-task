@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
     margin:0;
@@ -113,12 +114,12 @@ main{
     .left-side{
         width: 80%;
         margin-right: 0;
-        padding-bottom: 0.5rem;
+        padding-bottom: 2rem;
+        text-align: center;
     }
 
     .left-side h1{
-        font-size: 1.5rem;
-        font-weight: 600;
+        font-size: 1.6rem;
         line-height: 2rem;
         padding-bottom: 1rem;
     }
@@ -133,8 +134,16 @@ main{
         height: auto;
     }
 
+    .form p{
+        font-size: 0.7rem;
+    }
+
     .btn{
         font-size: 0.7rem;
-        padding: 0.5rem 2rem;
+        padding: 0.7rem 2rem;
+    }
+
+    #offer{
+        font-size:1rem;
     }
 }
