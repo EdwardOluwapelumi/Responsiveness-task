@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: hsl(0, 100%, 74%);
+    background-image: url('https://res.cloudinary.com/dyye5wssv/image/upload/v1655409489/bg-intro-desktop_1_whyrxg.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    color: #fff;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side{
+    width: 40%;
+    margin-right: 3rem;
+}
+
+.left-side h1{
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+
+.right-side{
+    width: 30%;
+}
+
+.form {
+    background-color: #fff;
+    align-items: center;
+    padding: 2rem;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 1rem;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 0.4rem;
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+.btn {
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0.02rem;
+    margin-top: 1rem;
+    padding: 0.8rem 4rem;
+    transition: transform 80ms ease-in;
+    width: 100%;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    transform: scale(0.95);
+}
+
+#offer-text{
+    font-weight: 200 !important;
+}
+
+#offer{
+    background-color: hsl(248, 32%, 49%) !important;
+}
+
+.form p{
+    color: grey;
+    font-size: 0.6rem;
+    padding-top: 1rem;
+}
+
+#terms-text a{
+    color: hsl(0, 66%, 47%);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media (min-width:320px) and (max-width:768px){
+    main{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .left-side{
+        width: 80%;
+        margin-right: 0;
+        font-size: 12px;
+        padding-bottom: 0.5rem;
+    }
+
+    .left-side h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .right-side{
+        width: 80%;
+        padding-bottom: 2rem;
+    }
+
+    .form{
+        width: 100%;
+        height: auto;
+    }
+
+    .btn{
+        font-size: 0.7rem;
+        padding: 0.5rem 2rem;
+    }
+}
